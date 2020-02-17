@@ -1,0 +1,27 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Node.js test project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "initDB": "node src/populateDB.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.1",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "keywords": [
+    "Node.js",
+    "test"
+  ],
+  "author": "Stanislav Aituhanov",
+  "license": "MIT"
+}
